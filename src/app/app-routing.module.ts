@@ -4,13 +4,17 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { AccountComponent } from './account/account.component';
 import { NotFoundComponent } from './shared/general/not-found/not-found.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
   {
     path: 'account', component: AccountComponent
   },
   {
-    path: '', redirectTo: '', pathMatch: 'full'
+    path: 'home', component: HomeComponent
+  },
+  {
+    path: '', component: HomeComponent
   },
   {
     path: '**', component: NotFoundComponent

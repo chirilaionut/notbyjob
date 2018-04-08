@@ -1,0 +1,18 @@
+.left-menu {
+  max-width: 330px;
+  width: 300px;
+}
+
+.comment-reply {
+  font-size: 12px;
+  font-style: italic;
+  margin-left: 20px;
+}
+
+.comment {
+  margin-bottom: 10px;
+}
+
+.comment > p {
+  margin-bottom: 0;
+}
